@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project showcases an IoT-based weather dashboard using an ESP8266 microcontroller. The dashboard displays real-time weather data fetched from OpenWeatherAPI, along with local temperature readings received via MQTT. Time synchronization is handled via NTP, and all the data is displayed on an OLED screen.
+A simple IoT-based weather dashboard using an ESP8266. The dashboard displays real-time weather data fetched from OpenWeatherAPI, along with local temperature readings received via MQTT. Time synchronization is handled via NTP, and all the data is displayed on an OLED screen.
 
 ## Features
 
@@ -15,7 +15,7 @@ This project showcases an IoT-based weather dashboard using an ESP8266 microcont
 
 - ESP8266-based microcontroller
 - OLED display (128x64)
-- Any MQTT-compatible temperature sensor for local readings
+- Some MQTT broker for retrieving local readings
 
 ## Software Requirements
 
@@ -40,10 +40,6 @@ This project showcases an IoT-based weather dashboard using an ESP8266 microcont
 - Implement automatic city selection based on IP geolocation
 - Add support for multiple MQTT topics
 - Improve error handling for MQTT and API failures
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests. For major changes, open an issue first to discuss what you would like to change.
 
 ## License
 
